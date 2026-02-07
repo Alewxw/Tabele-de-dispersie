@@ -1,0 +1,4 @@
+Tabele de dispersie
+	O tabelă de dispersie este o structură de date cu care poti implementa dicționarele. Deși, în cel mai defavorabil caz, căutarea unui element poate necesita un timp de ordinul Θ(n) (coliziuni)— similar cu o listă înlănțuită — în practică, tabelele de dispersie funcționează foarte bine, oferind în general un timp de căutare constant O(1) pentru tabelele de dispersie cu adresare directă sau pentru cele bine dispersate. Ideea este ca intr-o tabela de dispersie in care coliziunile sunt rezolvate prin inlantuire, o cautare cu/fara success necesita Θ(1+Alpha). Alpha = N/M (N – numărul total de elemente, M – numărul de liste / poziții din tabelă).
+În concluzie, principalele operații pe tabelele de dispersie — căutare, inserare și ștergere — au în medie complexitate O(1), adică timp constant.
+	O tabelă de dispersie este o generalizare a noţiunii mai simple de tablou.
